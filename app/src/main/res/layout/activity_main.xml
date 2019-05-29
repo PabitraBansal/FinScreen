@@ -4,20 +4,20 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/congratulations_bg"
+    android:background="#FBFBF3"
     tools:context=".MainActivity">
 
-    <ImageView
+    <com.example.finscreen.CustomGifView
         android:id="@+id/imageView"
-        android:layout_width="242dp"
-        android:layout_height="277dp"
+        android:layout_width="251dp"
+        android:layout_height="241dp"
         android:layout_marginStart="8dp"
         android:layout_marginLeft="8dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
         android:layout_marginBottom="8dp"
-        android:src="@drawable/game_over_emoji"
+        android:src="@drawable/medallion_burst_animation"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.496"
